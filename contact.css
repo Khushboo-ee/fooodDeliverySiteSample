@@ -1,0 +1,48 @@
+.location{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    background-color: rgb(51, 24, 4);
+}
+#city{
+    font-size: 20px;
+    color: whitesmoke;
+}
+#image{
+    margin-bottom: 20px;
+    padding: 0px;
+background-image: url(/contact4.png);
+height: 500px;
+}
+.feedback{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.feedback1{
+    display: block;
+    margin: 10px;
+    width: 70%;
+}
+.feedback2{
+    display: block;
+    margin: 10px;
+    width: 30%;
+}
+@font-face {
+    font-family: question;
+    src: url(/aloevera.ttf);
+}
+#input1{
+    font-size: 20px;
+    font-family:question ;
+}
+
+.box{
+    border: 1px solid rgb(90, 86, 86);
+    border-radius: 20px;
+    margin: 25px;
+    background-color: whitesmoke;
+    padding: 15px;
+}

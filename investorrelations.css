@@ -1,0 +1,51 @@
+.investortab{
+    border: 1px solid rgb(189, 240, 240);
+    
+}
+.investingdocs{
+    border: 1px solid rgb(87, 84, 84);
+}
+#doc1{
+    padding: 0px 10px;
+}
+#doc2{
+    padding: 0px 10px;
+}
+.statement{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+.tab{
+    margin: 20px;
+    padding: 0px 10px;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding-bottom: 15px;
+}
+#quarter{
+height: 10px;
+padding: 20px;
+text-align: center;
+font-size: 15px;
+}
+.know{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    padding: 15px;
+}
+.know1{
+    padding: 20px;
+}
+p::first-letter{
+    color: red;
+    font-size: 2em;
+}

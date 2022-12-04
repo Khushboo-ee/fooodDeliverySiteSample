@@ -1,0 +1,40 @@
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.videos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.coverpage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.who{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#who2{
+    font-size: 18px;
+    padding: 20px;
+}
+#who3{
+    width: 350px;
+    height: 250px;
+}
+.assorthead{
+display: flex;
+justify-content: flex-start;
+}
+.blogimg{
+    width: 300px;
+    height: 300px;
+    margin: 15px;
+}
+.ourblogs{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}

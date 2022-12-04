@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meals On Web</title>
+    <link rel="stylesheet" href="/onlinefood.css">
+</head>
+
+<body>
+
+    <header class="heading" id="heading">
+        <h1 id="top"> Meals On Web</h1>
+    </header>
+<div class="taskbar" id="bar">
+        <div class="taskbar" id="home"> <a href="http://127.0.0.1:5500/onlinefood.html"><b>Home</b> </a></div> <br>
+        <div class="taskbar" id="about"> <a href="http://127.0.0.1:5500/about.html"><b>About Us</b> </a></div> <br>
+        <div class="taskbar" id="contact"> <a href="http://127.0.0.1:5500/contact.html"><b>Contact</b> </a></div><br>
+        <div class="taskbar" id="investor"> <a href="http://127.0.0.1:5500/investorrelations.html"><b>Investor-Relations</b> </a>
+        </div><br>
+ 
+</div>
+    
+<div class="location" >
+    <div id="citynames">
+        <label for="cities"id="city"><b>Select your city</b> 
+            <select name="cities" id="cities">
+                <option value="Delhi">Delhi</option>
+                <option value="Mumbai">Mumbai</option>
+                <option value="Kolkata">Kolkata</option>
+                <option value="Bengaluru">Bengaluru</option>
+                <option value="Pune">Pune</option>
+                <option value="Hyedrabad">Hyedrabad</option>
+            </select>   
+        </label>
+    </div> <br>
+    <div id="enter">
+        <input type="text" id="dish" placeholder="Search for restaurant, cuisine or a dish" size="50">
+    </div>
+</div>
+<div class="option">
+    <div class="options" id="order"> 
+        <img  id="order1" src="/bg5.jpg" alt="error"> <br> <b>Order Online</b>
+    </div> <br>
+    <div class="options" id="dining">
+        <img id="dining1" src="/bg6.jpg" alt="error"> <br> <b>Dine In</b>
+    </div> <br>
+    <div class="options" id="pubs">
+        <img src="/bg7.jpg" alt="error" id="pub1"> <br> <b>Nightlife and Clubs</b>
+    </div>
+</div>
+<div class="bottom" id="end">
+    <h1 id="end1"> <b> Explore options near me</b> </h1> <hr>
+    <div class="dropdown" >
+        <div class="selections">
+       <label for="menucontent"> <b>cuisines</b> 
+        
+            <select name="menucontent" id="cuisines">
+                <option value="Indian" class="links"><a href="" > Indian</a></option> <br> 
+                <option value="Afghani" class="links"><a href="" >Afghani</a></option> <br>
+                <option value="Chinese" class="links"><a href="" >Chinese</a></option> <br> 
+                <option value="Italian" class="links"><a href="" >Italian</a></option> <br>
+                <option value="Continental" class="links"><a href="" ">Continental</a></option> <br> 
+                </select>    
+        </label> <br>
+        </div>
+        <div class="selections">
+        <label for="restaurants"><b>restaurants near me</b> 
+            <select name="restaurants" id="restaurants">
+                <option value="bamboohut" class="links"><a href="" class="links"> The bamboo hut</a></option> <br> 
+                <option value="bikanerwala" class="links"><a href="" class="links">Bikamerwala</a></option> <br>
+                <option value="Burger king" class="links"><a href="" class="links">Burger king</a></option> <br> 
+                <option value="The Oak Tree" class="links"><a href="" class="links">The Oak Tree</a></option> <br>
+                <option value="The wanderlust" class="links"><a href="" class="links">The wanderlust</a></option> <br> 
+                </select>
+       </label>
+       </div>
+    
+    </div>
+</div>
+</body>
+
+</html>
